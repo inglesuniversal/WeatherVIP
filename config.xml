@@ -1,10 +1,5 @@
-		<?xml version="1.0" encoding="UTF-8"?>
-    <widget xmlns = "http://www.w3.org/ns/widgets"
-		xmlns:gap = "http://phonegap.com/ns/1.0"
-		xmlns:android = "http://schemas.android.com/apk/res/android"
-		id        = "com.mycloudvip.weathervip"
-		versionCode=""
-		version   = "1.0.0">
+        <?xml version='1.0' encoding='utf-8'?>
+        <widget id="com.mycloudvip.weathervip" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
 		<name>Weather VIP</name>
 		<description>This is a great Weather App. It safely stores your favorite cities and a 10 day forecast securely on your Phone. What makes it special is that we will be rolling out a very good update in the following weeks, where the device itself can give you alerts and weather notifications by voice using an incredible technology based with the most advanced Text To Speech voice technology, also known as TTS. Download this App today and enjoy the VIP benefits that MyCloudVIP provides to you. Enjoy it!</description>
 		<author href="https://mycloudvip.com" email="info@mycloudvip.com">MyCloudVIP | Welcome to the Cloud!</author>
