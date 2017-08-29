@@ -4,60 +4,31 @@
     <description>
         This is a great Weather App. It safely stores your favorite cities and a 10 day forecast securely on your Phone. What makes it special is that we will be rolling out a very good update in the following weeks, where the device itself can give you alerts and weather notifications by voice using an incredible technology based with the most advanced Text To Speech voice technology, also known as TTS. Download this App today and enjoy the VIP benefits that MyCloudVIP provides to you. Enjoy it!
     </description>
-    <author email="info@mycloudvip.com" href="http://mycloudvip.com">
+    <author email="info@mycloudvip.com" href="https://mycloudvip.com">
         MyCloudVIP
     </author>
     <content src="index.html" />
+    <preference name="permissions" value="none"/>
+    <!-- Customize your app and platform with the preference element. -->
+    <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
+    <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
+    <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
+    <preference name="webviewbounce"              value="true" />           <!-- ios: control whether the screen 'bounces' when scrolled beyond the top -->
+    <preference name="prerendered-icon"           value="true" />           <!-- ios: if icon is prerendered, iOS will not apply it's gloss to the app's icon on the user's home screen -->
+    <preference name="stay-in-webview"            value="false" />          <!-- ios: external links should open in the default browser, 'true' would use the webview the app lives in -->
+    <preference name="ios-statusbarstyle"         value="black-opaque" />   <!-- ios: black-translucent will appear black because the PhoneGap webview doesn't go beneath the status bar -->
+    <preference name="detect-data-types"          value="true" />           <!-- ios: controls whether data types (such as phone no. and dates) are automatically turned into links by the system -->
+    <preference name="exit-on-suspend"            value="false" />          <!-- ios: if set to true, app will terminate when home button is pressed -->
+    <preference name="show-splash-screen-spinner" value="true" />           <!-- ios: if set to false, the spinner won't appear on the splash screen during app loading -->
+    <preference name="auto-hide-splash-screen"    value="true" />           <!-- ios: if set to false, the splash screen must be hidden using a JavaScript API -->
+    <preference name="disable-cursor"             value="false" />          <!-- blackberry: prevents a mouse-icon/cursor from being displayed on the app -->
+    <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
-    <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" />
-    <plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1" />
-    <plugin name="cordova-plugin-media-capture" source="npm" spec="~1.2.0" />
     <plugin name="cordova-plugin-console" source="npm" spec="~1.0.2" />
-    <plugin name="cordova-plugin-contacts" source="npm" spec="~2.0.1" />
-    <plugin name="cordova-plugin-device" source="npm" spec="~1.1.1" />
-    <plugin name="cordova-plugin-device-motion" source="npm" spec="~1.2.0" />
-    <plugin name="cordova-plugin-device-orientation" source="npm" spec="~1.0.2" />
-    <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.0" />
-    <plugin name="cordova-plugin-file" source="npm" spec="~4.1.1" />
-    <plugin name="cordova-plugin-file-transfer" source="npm" spec="~1.5.0" />
-    <plugin name="cordova-plugin-geolocation" source="npm" spec="~2.1.0" />
-    <plugin name="cordova-plugin-globalization" source="npm" spec="~1.0.3" />
-    <plugin name="cordova-plugin-inappbrowser" source="npm" spec="~1.3.0" />
-    <plugin name="cordova-plugin-media" source="npm" spec="~2.2.0" />
-    <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" />
-    <plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1" />
     <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />
-    <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
-    <platform name="ios">
-        <icon height="57" platform="ios" src="www/res/icon/ios/icon.png" width="57" />
-        <icon height="114" platform="ios" src="www/res/icon/ios/icon@2x.png" width="114" />
-        <icon height="40" platform="ios" src="www/res/icon/ios/icon-40.png" width="40" />
-        <icon height="80" platform="ios" src="www/res/icon/ios/icon-40@2x.png" width="80" />
-        <icon height="50" platform="ios" src="www/res/icon/ios/icon-50.png" width="50" />
-        <icon height="100" platform="ios" src="www/res/icon/ios/icon-50@2x.png" width="100" />
-        <icon height="60" platform="ios" src="www/res/icon/ios/icon-60.png" width="60" />
-        <icon height="120" platform="ios" src="www/res/icon/ios/icon-60@2x.png" width="120" />
-        <icon height="180" platform="ios" src="www/res/icon/ios/icon-60@3x.png" width="180" />
-        <icon height="72" platform="ios" src="www/res/icon/ios/icon-72.png" width="72" />
-        <icon height="144" platform="ios" src="www/res/icon/ios/icon-72@2x.png" width="144" />
-        <icon height="76" platform="ios" src="www/res/icon/ios/icon-76.png" width="76" />
-        <icon height="152" platform="ios" src="www/res/icon/ios/icon-76@2x.png" width="152" />
-        <icon height="29" platform="ios" src="www/res/icon/ios/icon-small.png" width="29" />
-        <icon height="58" platform="ios" src="www/res/icon/ios/icon-small@2x.png" width="58" />
-        <icon height="87" platform="ios" src="www/res/icon/ios/icon-small@3x.png" width="87" />
-        <splash height="1136" platform="ios" src="www/res/screen/ios/Default-568h@2x~iphone.png" width="640" />
-        <splash height="1334" platform="ios" src="www/res/screen/ios/Default-667h.png" width="750" />
-        <splash height="2208" platform="ios" src="www/res/screen/ios/Default-736h.png" width="1242" />
-        <splash height="1242" platform="ios" src="www/res/screen/ios/Default-Landscape-736h.png" width="2208" />
-        <splash height="1536" platform="ios" src="www/res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" />
-        <splash height="768" platform="ios" src="www/res/screen/ios/Default-Landscape~ipad.png" width="1024" />
-        <splash height="2048" platform="ios" src="www/res/screen/ios/Default-Portrait@2x~ipad.png" width="1536" />
-        <splash height="1024" platform="ios" src="www/res/screen/ios/Default-Portrait~ipad.png" width="768" />
-        <splash height="960" platform="ios" src="www/res/screen/ios/Default@2x~iphone.png" width="640" />
-        <splash height="480" platform="ios" src="www/res/screen/ios/Default~iphone.png" width="320" />
-		<platform name="ios">
+ 		<platform name="ios">
 		<icon src="www/icons/Icon-57.png" width="57" height="57" />
 		<icon src="www/icons/Icon-72@2x.png" width="144" height="144" />
 		<icon src="www/icons/Icon-Small-50@2x.png" width="100" height="100" />
@@ -92,6 +63,5 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-    </platform>
     </platform>
 </widget>
