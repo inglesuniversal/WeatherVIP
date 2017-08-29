@@ -1,3 +1,106 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.mycloudvip.weathervip" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Weather VIP</name>
+    <description>
+        This is a great Weather App. It safely stores your favorite cities and a 10 day forecast securely on your Phone. What makes it special is that we will be rolling out a very good update in the following weeks, where the device itself can give you alerts and weather notifications by voice using an incredible technology based with the most advanced Text To Speech voice technology, also known as TTS. Download this App today and enjoy the VIP benefits that MyCloudVIP provides to you. Enjoy it!
+    </description>
+    <author email="info@mycloudvip.com" href="http://mycloudvip.com">
+        MyCloudVIP
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+    <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.1.1" />
+    <plugin name="cordova-plugin-camera" source="npm" spec="~2.1.1" />
+    <plugin name="cordova-plugin-media-capture" source="npm" spec="~1.2.0" />
+    <plugin name="cordova-plugin-console" source="npm" spec="~1.0.2" />
+    <plugin name="cordova-plugin-contacts" source="npm" spec="~2.0.1" />
+    <plugin name="cordova-plugin-device" source="npm" spec="~1.1.1" />
+    <plugin name="cordova-plugin-device-motion" source="npm" spec="~1.2.0" />
+    <plugin name="cordova-plugin-device-orientation" source="npm" spec="~1.0.2" />
+    <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.2.0" />
+    <plugin name="cordova-plugin-file" source="npm" spec="~4.1.1" />
+    <plugin name="cordova-plugin-file-transfer" source="npm" spec="~1.5.0" />
+    <plugin name="cordova-plugin-geolocation" source="npm" spec="~2.1.0" />
+    <plugin name="cordova-plugin-globalization" source="npm" spec="~1.0.3" />
+    <plugin name="cordova-plugin-inappbrowser" source="npm" spec="~1.3.0" />
+    <plugin name="cordova-plugin-media" source="npm" spec="~2.2.0" />
+    <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" />
+    <plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1" />
+    <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />
+    <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+    <platform name="ios">
+        <icon height="57" platform="ios" src="www/res/icon/ios/icon.png" width="57" />
+        <icon height="114" platform="ios" src="www/res/icon/ios/icon@2x.png" width="114" />
+        <icon height="40" platform="ios" src="www/res/icon/ios/icon-40.png" width="40" />
+        <icon height="80" platform="ios" src="www/res/icon/ios/icon-40@2x.png" width="80" />
+        <icon height="50" platform="ios" src="www/res/icon/ios/icon-50.png" width="50" />
+        <icon height="100" platform="ios" src="www/res/icon/ios/icon-50@2x.png" width="100" />
+        <icon height="60" platform="ios" src="www/res/icon/ios/icon-60.png" width="60" />
+        <icon height="120" platform="ios" src="www/res/icon/ios/icon-60@2x.png" width="120" />
+        <icon height="180" platform="ios" src="www/res/icon/ios/icon-60@3x.png" width="180" />
+        <icon height="72" platform="ios" src="www/res/icon/ios/icon-72.png" width="72" />
+        <icon height="144" platform="ios" src="www/res/icon/ios/icon-72@2x.png" width="144" />
+        <icon height="76" platform="ios" src="www/res/icon/ios/icon-76.png" width="76" />
+        <icon height="152" platform="ios" src="www/res/icon/ios/icon-76@2x.png" width="152" />
+        <icon height="29" platform="ios" src="www/res/icon/ios/icon-small.png" width="29" />
+        <icon height="58" platform="ios" src="www/res/icon/ios/icon-small@2x.png" width="58" />
+        <icon height="87" platform="ios" src="www/res/icon/ios/icon-small@3x.png" width="87" />
+        <splash height="1136" platform="ios" src="www/res/screen/ios/Default-568h@2x~iphone.png" width="640" />
+        <splash height="1334" platform="ios" src="www/res/screen/ios/Default-667h.png" width="750" />
+        <splash height="2208" platform="ios" src="www/res/screen/ios/Default-736h.png" width="1242" />
+        <splash height="1242" platform="ios" src="www/res/screen/ios/Default-Landscape-736h.png" width="2208" />
+        <splash height="1536" platform="ios" src="www/res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" />
+        <splash height="768" platform="ios" src="www/res/screen/ios/Default-Landscape~ipad.png" width="1024" />
+        <splash height="2048" platform="ios" src="www/res/screen/ios/Default-Portrait@2x~ipad.png" width="1536" />
+        <splash height="1024" platform="ios" src="www/res/screen/ios/Default-Portrait~ipad.png" width="768" />
+        <splash height="960" platform="ios" src="www/res/screen/ios/Default@2x~iphone.png" width="640" />
+        <splash height="480" platform="ios" src="www/res/screen/ios/Default~iphone.png" width="320" />
+		<platform name="ios">
+		<icon src="www/icons/Icon-57.png" width="57" height="57" />
+		<icon src="www/icons/Icon-72@2x.png" width="144" height="144" />
+		<icon src="www/icons/Icon-Small-50@2x.png" width="100" height="100" />
+		<icon src="www/icons/Icon-60.png" width="60" height="60" />
+		<icon src="www/icons/Icon-60@2x.png" width="120" height="120" />
+		<icon src="www/icons/Icon-60@3x.png" width="180" height="180" />
+		<splash src="www/icons/splash_v_non_retina.png" width="1242" height="2208" /> 
+		<splash src="www/icons/splash_h_non_retina.png" width="2208" height="1242" /> 
+		<splash src="www/icons/splash_v_iphone6.png" width="750" height="1334" /> 
+		<splash src="www/icons/splash_h_iphone6.png" width="1334" height="750" /> 
+		<splash src="www/icons/splash_v_iphone5.png" width="640" height="1136" /> 
+		<splash src="www/icons/splash_h_iphone5.png" width="1136" height="640" /> 
+		<splash src="www/icons/splash_v_640x960.png" width="640" height="960" /> 
+		<splash src="www/icons/splash_h.png" width="960" height="640" /> 
+		<splash src="www/icons/splash_v_320x480.png" width="320" height="480" /> 
+		<splash src="www/icons/splash_h_480x320.png" width="480" height="320" /> 
+		</platform>
+		<platform name="android">
+		<icon src="www/icons/Icon-36.png" qualifier="ldpi" />
+		<icon src="www/icons/Icon-48.png" qualifier="mdpi" />
+		<icon src="www/icons/Icon-72.png" qualifier="hdpi" />
+		<icon src="www/icons/Icon-96.png" qualifier="xhdpi" />
+		<icon src="www/icons/Icon-72@2x.png" qualifier="xxhdpi" />
+		<icon src="www/icons/Icon-192.png" qualifier="xxxhdpi" />
+		</platform>
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
+
+
+
+
+
+
+
         <?xml version='1.0' encoding='utf-8'?>
         <widget id="com.mycloudvip.weathervip" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
 		<name>Weather VIP</name>
